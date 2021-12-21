@@ -1,4 +1,4 @@
-package com.example.waterfight;
+package com.Water.WaterFight;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.waterfight", appContext.getPackageName());
+        assertEquals("com.Water.WaterFight", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package com.example.waterfight;
+package com.Water.WaterFight;
 
 import org.junit.Test;
 

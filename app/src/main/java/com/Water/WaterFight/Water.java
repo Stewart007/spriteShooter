@@ -1,15 +1,15 @@
-package com.example.waterfight;
+package com.Water.WaterFight;
 
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
-public class Shot {
+public class Water {
     Bitmap shot;
     Context context;
     int shx, shy;
 
-    public Shot(Context context, int shx, int shy) {
+    public Water(Context context, int shx, int shy) {
         this.context = context;
         shot = BitmapFactory.decodeResource(context.getResources(),
                 R.drawable.water);
